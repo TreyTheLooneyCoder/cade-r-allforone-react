@@ -22,7 +22,7 @@ const MadLibComponent = () => {
 
   useEffect(() => {
     if(adjective1 == '' || noun1 == '' || verb1 == '' || place == '' || adjective2 == '' || animal == '' || verb2 == '' || noun2 == '' || emotion == '' || verb3 == ''){
-
+      console.log('One or more things are empty.')
     }else{
       fetchMadLib();
     }

@@ -12,7 +12,7 @@ const GuessItMediumComponent = () => {
   
   useEffect(() => {
     if(medGuess == ''){
-  
+      console.log('Add something.');
     }else{
       fetchMedGuess();
     }

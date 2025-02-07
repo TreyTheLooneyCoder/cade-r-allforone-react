@@ -12,7 +12,7 @@ const GuessItEasyComponent = () => {
 
   useEffect(() => {
     if(easyGuess == ''){
-
+      console.log('Add something.');
     }else{
       fetchEasyGuess();
     }

@@ -14,7 +14,7 @@ const AskingQuestionsComponent = () => {
 
   useEffect(() => {
     if(userName == '' || userTime == ''){
-
+      console.log('User name or time empty.');
     }else{
       fetchQuestions();
     }
